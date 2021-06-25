@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "E-book",
+    "slug": "E-book",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon2.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "usesIcloudStorage": true,
+      "bundleIdentifier": "com.yourname.yourapp"
+    },
+    "plugins": [
+      [
+        "expo-document-picker",
+        {
+          "appleTeamId": "YOUR_TEAM_ID"
+        }
+      ]
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.memoire.ebook"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
